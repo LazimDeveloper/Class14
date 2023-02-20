@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: blanchedalmond;
+}
+.card{
+    height: 670px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img{
+    width: 300px;
+    position: relative;
+}
+.card-img img{
+    width:300px;
+    border-radius: 10px;
+}
+.card-img #seen{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card-img #views{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card-detalis h2{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.card-detalis .type{
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+}
+.card-detalis .det{
+    text-align: justify;
+    font-weight: 500;
+    padding: 10px;
+    word-spacing: 1px;
+}
+.btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.btn a:hover{
+    color: brown;
+    background-color: white;
+}
+

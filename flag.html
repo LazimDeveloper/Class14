@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .relative{
+            height: 300px;
+            width: 500px;
+            background-color: green;
+            position: relative;
+        }
+        .absoulute{
+            width:100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top:100px;
+            left:200px;
+            z-index: 11;
+        }
+        .absoulute-2{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top:100px;
+            left:150px;
+            z-index: 10;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="relative">
+        <div class="absoulute"></div>
+        <div class="absoulute-2"></div>
+    </div>
+
+
+</body>
+</html>
